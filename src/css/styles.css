@@ -1,0 +1,41 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #EBEBD8;
+
+}
+
+.container {
+    margin: 80px 50px 50px 50px;
+}
+
+/*  */
+
+.intro {
+    background: url(../img/inicio.jpg) center center fixed;
+    background-size: cover;
+    padding: 220px 0;
+    margin-top: 40px;
+    left: 0;
+    right: 0;
+}
+
+
+/* Estilo para o rodapé */
+.footer {
+    background: url(../img/footer.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Encapsulamento do formulário */
+.borda {
+    box-shadow: 5px 5px 10px rgb(219, 14, 14);
+    padding: 30px;
+    margin-right: 30px;
+    background-color: rgb(247, 243, 13);
+}

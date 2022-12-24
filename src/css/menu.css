@@ -1,0 +1,37 @@
+/* Folha de estilo para o MENU navegável */
+
+/* posicionamento MENU NAV */
+
+nav {
+    position: fixed 0, 0, 0, 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #003264;
+    overflow: hidden;
+    border-radius: 10px 20px;
+    /* uso do OVERFLOW HIDDEN : compacta o menu dentro da caixa  */
+}
+
+.menu li {
+    float: left;
+    /* O elemento deve flutuar no lado esquerdo do bloco que o contém. */
+}
+
+.menu li a {
+    display: block;
+    color: #F9F9F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Criamos o efeito de quando o mouse passa por cima dos links */
+.menu li a:hover {
+    background-color: #DFDFDF;
+    color: #003264;
+
+}
