@@ -20,6 +20,11 @@ body {
     margin-top: 40px;
     left: 0;
     right: 0;
+    border-radius: 20px 20px;
+    margin-left: 50px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 
@@ -38,4 +43,8 @@ body {
     padding: 30px;
     margin-right: 30px;
     background-color: rgb(247, 243, 13);
+}
+
+select:invalid {
+    color: gray;
 }

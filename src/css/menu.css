@@ -10,7 +10,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #003264;
+    background-color: #263159;
     overflow: hidden;
     border-radius: 10px 20px;
     /* uso do OVERFLOW HIDDEN : compacta o menu dentro da caixa  */
@@ -31,7 +31,7 @@ nav {
 
 /* Criamos o efeito de quando o mouse passa por cima dos links */
 .menu li a:hover {
-    background-color: #DFDFDF;
-    color: #003264;
+    background-color: #495579;
+    
 
 }
